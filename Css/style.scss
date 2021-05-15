@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body{
+    background:#EAEAEA;
+    font-family: 'Lato', sans-serif;
+    color:dimgray;
+    h1,h2,h3,h4,h5,h6,p{
+        margin-bottom: 0px;
+    }
+}
+#main-container-page{
+    background:white;
+}
+
+hr.cs-hr{
+    height:5px !important;
+    background:orangered;
+    opacity: 1;
+    margin:5px 0px;
+}
+
+#form-part{
+    .grid{
+        display: grid;
+        grid-template-columns: 40% 1fr;
+        @media screen and (max-width:800px){
+            grid-template-columns: 1fr;
+        }
+
+        .colors-pattale{
+            .content{
+                display: flex;
+            flex-wrap: wrap;
+            .color-box{
+                width:30px;
+                background:red;
+                height:30px;
+                margin:2px;
+            }
+            }
+            
+        }
+    }
+}
