@@ -25,6 +25,7 @@ hr.cs-hr {
   display: grid;
   -ms-grid-columns: 40% 1fr;
       grid-template-columns: 40% 1fr;
+  gap: 20px;
 }
 
 @media screen and (max-width: 800px) {

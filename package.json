@@ -11,5 +11,11 @@
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^5.0.0-beta3"
+  },
+  "devDependencies": {
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.23.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.3.1"
   }
 }
